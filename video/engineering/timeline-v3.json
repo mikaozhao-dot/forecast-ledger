@@ -1,0 +1,494 @@
+{
+  "title": "信号与噪声 · 预测台账",
+  "edition": "v3",
+  "ledger_date": "2026-10-21",
+  "runtime_seconds": 184.95833333333334,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "colors": {
+    "background": "#0b0b10",
+    "purple": "#7c6cff",
+    "gold": "#e8b34b",
+    "white": "#edecf2"
+  },
+  "scene_seconds": [
+    8.0,
+    35.416666666666664,
+    31.541666666666668,
+    25.0,
+    33.0,
+    32.0,
+    20.0
+  ],
+  "stocks": [
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "anchor": "$146.03",
+      "anchor_date": "2026-10-16",
+      "probability": 0.42,
+      "signal": "至多 13 亿股解禁在即，\n薄流通是波动之源",
+      "key_levels": [
+        {
+          "display": "$135",
+          "label": "发行价",
+          "value": 135.0
+        },
+        {
+          "display": "$108.27",
+          "label": "收盘低",
+          "value": 108.27
+        },
+        {
+          "display": "$225.64",
+          "label": "盘中高",
+          "value": 225.64
+        },
+        {
+          "display": "$146.03",
+          "label": "锚价·收盘",
+          "value": 146.03
+        }
+      ],
+      "source": "research/research-2026-10-21-scope-v2.md § SpaceX",
+      "rmb_reference": "约 ¥977",
+      "rmb_reference_note": "人民币参考（汇率 6.69）"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "anchor": "$534.74",
+      "anchor_date": "2026-10-20",
+      "probability": 0.47,
+      "range_low": 188.22,
+      "range_low_display": "$188.22",
+      "range_high": 658.52,
+      "range_high_display": "$658.52",
+      "signal": "执行强、预期满，\n11-03 财报定生死",
+      "source": "research/research-2026-10-21-scope-v2.md § AMD",
+      "rmb_reference": "约 ¥3,577",
+      "rmb_reference_note": "人民币参考（汇率 6.69）"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "anchor": "$216.47",
+      "anchor_date": "2026-10-20",
+      "probability": 0.55,
+      "range_low": 164.27,
+      "range_low_display": "$164.27",
+      "range_high": 243.37,
+      "range_high_display": "$243.37",
+      "signal": "需求可见度最强，\n毛利率被内存涨价压",
+      "source": "research/research-2026-10-21-compute-chain.md § 英伟达 NVDA",
+      "rmb_reference": "约 ¥1,448",
+      "rmb_reference_note": "人民币参考（汇率 6.69）"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "anchor": "$694.25",
+      "anchor_date": "2026-10-20",
+      "probability": 0.54,
+      "range_low": 520.26,
+      "range_low_display": "$520.26",
+      "range_high": 779.82,
+      "range_high_display": "$779.82",
+      "signal": "四只中最便宜，\n今晚财报先考 2027 capex",
+      "source": "research/research-2026-10-21-scope-v2.md § Meta META",
+      "rmb_reference": "约 ¥4,645",
+      "rmb_reference_note": "人民币参考（汇率 6.69）"
+    }
+  ],
+  "dram_qoq": [
+    {
+      "quarter": "Q1 2026",
+      "low": 93,
+      "high": 98,
+      "display": "+93~98%"
+    },
+    {
+      "quarter": "Q2 2026",
+      "low": 58,
+      "high": 63,
+      "display": "+58~63%"
+    },
+    {
+      "quarter": "Q3 2026",
+      "low": 40,
+      "high": 40,
+      "display": "约 +40%"
+    },
+    {
+      "quarter": "Q4 2026",
+      "low": 10,
+      "high": 15,
+      "display": "预测 +10~15%"
+    }
+  ],
+  "hbm_2027_scenarios": [
+    {
+      "label": "分析师·保守",
+      "value": 50,
+      "display": ">+50%",
+      "open_ended": true
+    },
+    {
+      "label": "UBS",
+      "value": 79,
+      "display": "+79%"
+    },
+    {
+      "label": "TrendForce·KED",
+      "value": 121,
+      "display": "+121%"
+    }
+  ],
+  "hbm_revenue_shares": [
+    {
+      "quarter": "2025 Q2",
+      "sk_hynix": 64,
+      "samsung": 15,
+      "micron": 21
+    },
+    {
+      "quarter": "2026 Q2",
+      "sk_hynix": 50,
+      "samsung": 33,
+      "micron": 18
+    }
+  ],
+  "dram_revenue_shares_2026_q2": {
+    "samsung": "39.4%",
+    "sk_hynix": "24.9%",
+    "micron": "23.3%",
+    "source": "TrendForce Q2 2026 DRAM revenue share"
+  },
+  "company_comparison": {
+    "samsung": {
+      "dram_share": "39.4%",
+      "hbm_share": "约 33%",
+      "sixteen_layer": "未商品化",
+      "lta": "2031 年前约 70% 产能锁入长约",
+      "hbm4e": "据韩媒称已过 NVIDIA 与大客户测试（未官宣）"
+    },
+    "sk_hynix": {
+      "dram_share": "24.9%",
+      "hbm_share": "约 50%",
+      "sixteen_layer": "16 层 HBM 量产出货",
+      "lta": "—",
+      "hbm4e": "—"
+    }
+  },
+  "ledger": [
+    {
+      "id": "S1",
+      "short": "SPCX 收盘 > $146.03（约 ¥977）",
+      "probability": 0.42,
+      "due": "2027-01-31（判定取 01-29 收盘）"
+    },
+    {
+      "id": "S2",
+      "short": "AMD 收盘 > $534.74（约 ¥3,577）",
+      "probability": 0.47,
+      "due": "2027-01-31（判定取 01-29 收盘）"
+    },
+    {
+      "id": "S3",
+      "short": "NVDA 收盘 > $216.47（约 ¥1,448）",
+      "probability": 0.55,
+      "due": "2027-01-31（判定取 01-29 收盘）"
+    },
+    {
+      "id": "S4",
+      "short": "META 收盘 > $694.25（约 ¥4,645）",
+      "probability": 0.54,
+      "due": "2027-01-31（判定取 01-29 收盘）"
+    },
+    {
+      "id": "M1",
+      "short": "DRAM 合约价 2027 年内季度环比下跌",
+      "probability": 0.58,
+      "due": "2027-12-31"
+    },
+    {
+      "id": "M2",
+      "short": "三星 16 层 HBM4/4E 量产出货",
+      "probability": 0.4,
+      "due": "2027-12-31"
+    },
+    {
+      "id": "M3",
+      "short": "HBM 混合均价同比 ≥ +80%",
+      "probability": 0.55,
+      "due": "2027-12-31"
+    },
+    {
+      "id": "M4",
+      "short": "海力士 HBM 份额四季均 ≥ 45%",
+      "probability": 0.52,
+      "due": "2027-12-31·按季"
+    },
+    {
+      "id": "M5",
+      "short": "NAND 先于 DRAM 出现季度环比下跌",
+      "probability": 0.55,
+      "due": "2027-12-31"
+    },
+    {
+      "id": "C1",
+      "short": "四家 AI 视频平台至少一家收缩补贴",
+      "probability": 0.55,
+      "due": "2027-06-30"
+    }
+  ],
+  "method_six": [
+    "先基础率",
+    "只报概率",
+    "信号与噪声分离",
+    "狐狸式多模型",
+    "留档改判",
+    "看激励与对手盘"
+  ],
+  "scene_order": [
+    "intro",
+    "stocks",
+    "memory",
+    "duel",
+    "seedance-prices",
+    "competitor-prices",
+    "ledger"
+  ],
+  "voice_seconds": [
+    5.16,
+    34.296,
+    30.408,
+    22.368,
+    26.544,
+    25.656,
+    10.2
+  ],
+  "voice_lead_seconds": [
+    1.0,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "scene_frames": [
+    192,
+    850,
+    757,
+    600,
+    792,
+    768,
+    480
+  ],
+  "rmb_exchange_rate": 6.69,
+  "stock_rmb_footnote": "人民币为按 6.69 折算的参考值，到期判定以美元收盘价为准",
+  "seedance_prices": {
+    "official": {
+      "title": "Seedance 官方价梯队",
+      "unit": "¥/秒",
+      "columns": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "rows": [
+        {
+          "model": "2.5",
+          "values": [
+            0.672,
+            1.512,
+            3.742
+          ]
+        },
+        {
+          "model": "2.0 标准",
+          "values": [
+            0.462,
+            0.994,
+            2.478
+          ]
+        },
+        {
+          "model": "2.0 Fast",
+          "values": [
+            0.372,
+            0.8,
+            null
+          ]
+        },
+        {
+          "model": "2.0 Mini",
+          "values": [
+            0.232,
+            0.496,
+            null
+          ]
+        }
+      ],
+      "source": "火山引擎国内官方价目表；10/15 建基线，10/17–21 连续五次检查均未调价",
+      "trend": "2.5 720p ¥1.512，较 2.0 标准 720p ¥0.994 溢价约 52%"
+    },
+    "channels": [
+      {
+        "name": "国内官方（锚）",
+        "price": 1.512,
+        "source": "火山引擎国内官方价目表"
+      },
+      {
+        "name": "Replicate",
+        "price": 1.55,
+        "source": "Replicate 公开报价，按 6.69 折算"
+      },
+      {
+        "name": "Segmind",
+        "price": 1.6,
+        "source": "Segmind 公开报价，按 6.69 折算"
+      },
+      {
+        "name": "Pika API",
+        "price": 1.63,
+        "source": "Pika API token 口径，按 6.69 折算"
+      },
+      {
+        "name": "apimodels.app",
+        "price": 1.81,
+        "source": "apimodels.app 公开报价，按 6.69 折算"
+      },
+      {
+        "name": "Atlas Cloud",
+        "price": 2.01,
+        "source": "Atlas Cloud 公开报价，按 6.69 折算"
+      },
+      {
+        "name": "Kie.ai",
+        "price": 2.11,
+        "source": "Kie.ai credit 口径，按 6.69 折算"
+      },
+      {
+        "name": "Wavespeed 标准",
+        "price": 2.41,
+        "source": "Wavespeed 标准端点报价，按 6.69 折算"
+      },
+      {
+        "name": "fal.ai",
+        "price": 3.16,
+        "source": "fal.ai 公开报价，按 6.69 折算"
+      }
+    ],
+    "subsidies": [
+      {
+        "name": "Flova",
+        "price": 0.23,
+        "source": "BigGo 2026-08-13 + 我方价格监控基线"
+      },
+      {
+        "name": "TapNow",
+        "price": 0.24,
+        "source": "BigGo 2026-08-13 + 我方价格监控基线"
+      },
+      {
+        "name": "OiiOii",
+        "price": 0.27,
+        "source": "BigGo 2026-08-13 + 我方价格监控基线"
+      },
+      {
+        "name": "LibTV",
+        "price": 0.4,
+        "source": "BigGo 2026-08-13 + 我方价格监控基线"
+      }
+    ],
+    "footnote": "价格为 2026 年 10 月核查口径，渠道价随时变动；美元报价按 6.69 折算，展示人民币",
+    "subsidy_footnote": "补贴价 · 非标价；BigGo 2026-08-13 + 我方基线；官方价 ¥1.512/秒，补贴价约为官方 15%–26%"
+  },
+  "competitor_prices": {
+    "unit": "¥/秒，720p 附近口径",
+    "rows": [
+      {
+        "name": "可灵 Kling 3.0 · 无音频",
+        "price": 0.56,
+        "source": "官方 API 价目折算；framesurfer 2026-10-13 复核"
+      },
+      {
+        "name": "可灵 Kling 3.0 · 原生音频",
+        "price": 0.84,
+        "source": "官方 API 价目折算；framesurfer 2026-10-13 复核"
+      },
+      {
+        "name": "可灵 Kling 2.5 Turbo · 无音频",
+        "price": 0.28,
+        "source": "官方 API 价目折算；framesurfer 2026-10-13 复核"
+      },
+      {
+        "name": "MiniMax H3 · 768p",
+        "price": 0.54,
+        "source": "MiniMax 官方 pay-as-you-go，按 6.69 折算"
+      },
+      {
+        "name": "MiniMax Hailuo 2.3 · 768p",
+        "price": 0.31,
+        "source": "MiniMax 官方按条价折算每秒"
+      },
+      {
+        "name": "Google Veo 3.1 Fast",
+        "price": 0.67,
+        "source": "Gemini API 官方价目，720p 带音频"
+      },
+      {
+        "name": "Google Veo 3.1 标准版",
+        "price": 2.68,
+        "source": "Gemini API 官方价目"
+      },
+      {
+        "name": "Runway Gen-4 Turbo",
+        "price": 0.33,
+        "source": "Runway 官方挂牌，第三方复核"
+      },
+      {
+        "name": "Runway Gen-4.5",
+        "price": 0.8,
+        "source": "Runway 12 credits/秒折算"
+      },
+      {
+        "name": "Luma Ray 3.2",
+        "price": 0.6,
+        "source": "Higgsfield 每 10 秒 clip 对照表"
+      },
+      {
+        "name": "PixVerse V6 · 渠道实测",
+        "price": 0.27,
+        "source": "第三方渠道实测，768p，token 计量"
+      },
+      {
+        "name": "PixVerse C1 · 渠道实测",
+        "price": 0.21,
+        "source": "第三方渠道实测，768p，token 计量"
+      },
+      {
+        "name": "Vidu Q3 · 渠道实测",
+        "price": 0.52,
+        "source": "第三方渠道实测，768p，token 计量"
+      },
+      {
+        "name": "Vidu Q3 Pro · 渠道实测",
+        "price": 0.62,
+        "source": "第三方渠道实测，768p，token 计量"
+      },
+      {
+        "name": "阿里 Wan 系列 · 仅列区间",
+        "range": [
+          0.13,
+          0.67
+        ],
+        "source": "第三方 API 渠道报价区间；只入表、不进口播"
+      }
+    ],
+    "footnote": "价格为 2026 年 10 月核查口径，渠道价随时变动；美元报价按 6.69 折算，展示人民币；来源：官方 API 价目及表内注明渠道"
+  }
+}

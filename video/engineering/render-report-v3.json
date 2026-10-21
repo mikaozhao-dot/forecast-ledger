@@ -1,0 +1,21 @@
+{
+  "output": "video/output/forecast-ledger-v3.silent.mp4",
+  "duration_seconds": 184.95833333333334,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 4439,
+  "audio": "separate narration and Udio mix applied by mix_v3.py",
+  "background": "procedural code-generated gradient, grid, orbit and particles",
+  "storyboard_frames": [
+    "video/frames-v3/scene-00.jpg",
+    "video/frames-v3/scene-01.jpg",
+    "video/frames-v3/scene-02.jpg",
+    "video/frames-v3/scene-03.jpg",
+    "video/frames-v3/scene-04.jpg",
+    "video/frames-v3/scene-05.jpg",
+    "video/frames-v3/scene-06.jpg"
+  ],
+  "source_data": "video/engineering/timeline-v3.json",
+  "renderer": "video/engineering/render_v3.py"
+}

@@ -1,0 +1,33 @@
+{
+  "output": "video/output/forecast-ledger-v3.mp4",
+  "runtime_seconds": 184.958333,
+  "voice_files": [
+    "video/assets/narration/scene-00.mp3",
+    "video/assets/narration/scene-01.mp3",
+    "video/assets/narration/scene-02.mp3",
+    "video/assets/narration/scene-03.mp3",
+    "video/assets/narration/scene-04.mp3",
+    "video/assets/narration/scene-05.mp3",
+    "video/assets/narration/scene-06.mp3"
+  ],
+  "music_source": "video/assets/udio-underscore-v3.mp3",
+  "music_duration_seconds": 143.184,
+  "mix": {
+    "narration": "each clip normalized to -17 LUFS, then mixed at its scene offset",
+    "music": "Udio source looped to runtime, -9 dB bed gain, sidechain ducked by narration",
+    "sidechain": "threshold 0.03, ratio 10:1, attack 35 ms, release 650 ms",
+    "master_target": "-16 LUFS, -1.5 dBTP",
+    "measurement": {
+      "input_i": "-15.90",
+      "input_tp": "0.00",
+      "input_lra": "2.60",
+      "input_thresh": "-26.12",
+      "output_i": "-16.20",
+      "output_tp": "-1.50",
+      "output_lra": "2.70",
+      "output_thresh": "-26.41",
+      "normalization_type": "dynamic",
+      "target_offset": "0.20"
+    }
+  }
+}

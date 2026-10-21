@@ -1,0 +1,19 @@
+{
+  "output": "video/output/forecast-ledger-v2.mp4",
+  "duration_seconds": 115.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 2760,
+  "audio": "original synthesized electronic music; no narration",
+  "background": "procedural code-generated gradient, grid, orbit and particles",
+  "storyboard_frames": [
+    "video/frames/scene-00.jpg",
+    "video/frames/scene-01.jpg",
+    "video/frames/scene-02.jpg",
+    "video/frames/scene-03.jpg",
+    "video/frames/scene-04.jpg"
+  ],
+  "source_data": "video/engineering/timeline.json",
+  "renderer": "video/engineering/render.py"
+}

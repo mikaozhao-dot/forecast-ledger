@@ -1,0 +1,122 @@
+{
+  "title": "信号与噪声 · 预测台账",
+  "edition": "v2",
+  "ledger_date": "2026-10-21",
+  "runtime_seconds": 115,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "colors": {
+    "background": "#0b0b10",
+    "purple": "#7c6cff",
+    "gold": "#e8b34b",
+    "white": "#edecf2"
+  },
+  "scene_seconds": [8, 32, 30, 25, 20],
+  "stocks": [
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "anchor": "$146.03",
+      "anchor_date": "2026-10-16",
+      "probability": 0.42,
+      "signal": "至多 13 亿股解禁在即，\n薄流通是波动之源",
+      "key_levels": [
+        {"display": "$135", "label": "发行价", "value": 135.0},
+        {"display": "$108.27", "label": "收盘低", "value": 108.27},
+        {"display": "$225.64", "label": "盘中高", "value": 225.64},
+        {"display": "$146.03", "label": "锚价·收盘", "value": 146.03}
+      ],
+      "source": "research/research-2026-10-21-scope-v2.md § SpaceX"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "anchor": "$534.74",
+      "anchor_date": "2026-10-20",
+      "probability": 0.47,
+      "range_low": 188.22,
+      "range_low_display": "$188.22",
+      "range_high": 658.52,
+      "range_high_display": "$658.52",
+      "signal": "执行强、预期满，\n11-03 财报定生死",
+      "source": "research/research-2026-10-21-scope-v2.md § AMD"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "anchor": "$216.47",
+      "anchor_date": "2026-10-20",
+      "probability": 0.55,
+      "range_low": 164.27,
+      "range_low_display": "$164.27",
+      "range_high": 243.37,
+      "range_high_display": "$243.37",
+      "signal": "需求可见度最强，\n毛利率被内存涨价压",
+      "source": "research/research-2026-10-21-compute-chain.md § 英伟达 NVDA"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "anchor": "$694.25",
+      "anchor_date": "2026-10-20",
+      "probability": 0.54,
+      "range_low": 520.26,
+      "range_low_display": "$520.26",
+      "range_high": 779.82,
+      "range_high_display": "$779.82",
+      "signal": "四只中最便宜，\n今晚财报先考 2027 capex",
+      "source": "research/research-2026-10-21-scope-v2.md § Meta META"
+    }
+  ],
+  "dram_qoq": [
+    {"quarter": "Q1 2026", "low": 93, "high": 98, "display": "+93~98%"},
+    {"quarter": "Q2 2026", "low": 58, "high": 63, "display": "+58~63%"},
+    {"quarter": "Q3 2026", "low": 40, "high": 40, "display": "约 +40%"},
+    {"quarter": "Q4 2026", "low": 10, "high": 15, "display": "预测 +10~15%"}
+  ],
+  "hbm_2027_scenarios": [
+    {"label": "分析师·保守", "value": 50, "display": ">+50%", "open_ended": true},
+    {"label": "UBS", "value": 79, "display": "+79%"},
+    {"label": "TrendForce·KED", "value": 121, "display": "+121%"}
+  ],
+  "hbm_revenue_shares": [
+    {"quarter": "2025 Q2", "sk_hynix": 64, "samsung": 15, "micron": 21},
+    {"quarter": "2026 Q2", "sk_hynix": 50, "samsung": 33, "micron": 18}
+  ],
+  "dram_revenue_shares_2026_q2": {
+    "samsung": "39.4%",
+    "sk_hynix": "24.9%",
+    "micron": "23.3%",
+    "source": "TrendForce Q2 2026 DRAM revenue share"
+  },
+  "company_comparison": {
+    "samsung": {
+      "dram_share": "39.4%",
+      "hbm_share": "约 33%",
+      "sixteen_layer": "未商品化",
+      "lta": "2031 年前约 70% 产能锁入长约",
+      "hbm4e": "据韩媒称已过 NVIDIA 与大客户测试（未官宣）"
+    },
+    "sk_hynix": {
+      "dram_share": "24.9%",
+      "hbm_share": "约 50%",
+      "sixteen_layer": "16 层 HBM 量产出货",
+      "lta": "—",
+      "hbm4e": "—"
+    }
+  },
+  "ledger": [
+    {"id": "S1", "short": "SPCX 收盘 > $146.03", "probability": 0.42, "due": "2027-01-31（判定取 01-29 收盘）"},
+    {"id": "S2", "short": "AMD 收盘 > $534.74", "probability": 0.47, "due": "2027-01-31（判定取 01-29 收盘）"},
+    {"id": "S3", "short": "NVDA 收盘 > $216.47", "probability": 0.55, "due": "2027-01-31（判定取 01-29 收盘）"},
+    {"id": "S4", "short": "META 收盘 > $694.25", "probability": 0.54, "due": "2027-01-31（判定取 01-29 收盘）"},
+    {"id": "M1", "short": "DRAM 合约价 2027 年内季度环比下跌", "probability": 0.58, "due": "2027-12-31"},
+    {"id": "M2", "short": "三星 16 层 HBM4/4E 量产出货", "probability": 0.40, "due": "2027-12-31"},
+    {"id": "M3", "short": "HBM 混合均价同比 ≥ +80%", "probability": 0.55, "due": "2027-12-31"},
+    {"id": "M4", "short": "海力士 HBM 份额四季均 ≥ 45%", "probability": 0.52, "due": "2027-12-31·按季"},
+    {"id": "M5", "short": "NAND 先于 DRAM 出现季度环比下跌", "probability": 0.55, "due": "2027-12-31"},
+    {"id": "C1", "short": "四家 AI 视频平台至少一家收缩补贴", "probability": 0.55, "due": "2027-06-30"}
+  ],
+  "method_six": ["先基础率", "只报概率", "信号与噪声分离", "狐狸式多模型", "留档改判", "看激励与对手盘"]
+}
